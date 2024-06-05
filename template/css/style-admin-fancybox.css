@@ -1,0 +1,314 @@
+* {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+.fontTimes {
+	font-family: "Times New Roman";
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	background-color: #FFFFFF;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	color: #666666;
+}
+
+a {
+	color: #FF8C00;
+}
+
+a, img {
+	outline: none;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+table
+{
+	border-collapse: collapse;
+	border: none;
+}
+
+table td
+{
+	padding: 0;
+}
+
+.width100 {
+	width: 100%;
+}
+
+.tableAlignCenter {
+	margin: 0 auto 0 auto;
+}
+
+.tableAlignRight {
+	float: right;
+}
+
+.colorWhite {
+	color: #FFFFFF;
+}
+
+.colorGrey {
+	color: #666666;
+}
+
+.colorGrey1 {
+	color: #B5B5B5;
+}
+
+.colorOrange {
+	color: #FF8A00;
+}
+
+.colorBlack {
+	color: #000000;
+}
+
+.colorRed {
+	color: #FF0000;
+}
+
+.fontSize11 {
+	font-size: 11px;
+}
+
+.fontSize12 {
+	font-size: 12px;
+}
+
+.fontSize14 {
+	font-size: 14px;
+}
+
+.fontSize16 {
+	font-size: 16px;
+}
+
+.fontSize17 {
+	font-size: 17px;
+}
+
+.fontSize18 {
+	font-size: 18px;
+}
+
+.fontSize20 {
+	font-size: 20px;
+}
+
+.fontSize22 {
+	font-size: 22px;
+}
+
+.fontSize24 {
+	font-size: 24px;
+}
+
+.fontSize26 {
+	font-size: 26px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.alignCenter {
+	text-align: center;
+}
+
+.alignRight {
+	text-align: right;
+}
+
+.alignLeft {
+	text-align: left;
+}
+
+.hover {
+	text-decoration: none;
+}
+
+.hover:hover {
+	text-decoration: underline;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.show {
+	display: block;
+}
+
+.hide {
+	display: none;
+}
+
+.delimiter {
+	clear: both;
+}
+
+.dataLineDelimiter {
+	clear: both;
+	padding-bottom: 35px;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+.displayBlock {
+	display: block;
+}
+
+.positionRelative {
+	position: relative;
+}
+
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+
+.mainCarrier_div
+{
+	margin: 0 auto 0 auto;
+	min-width: 800px;
+	max-width: 1300px;
+}
+
+.mainCarrier_div div.contentCarrier_div
+{
+	margin: 0 auto 0 auto;
+	min-width: 750px;
+	max-width: 1250px;
+}
+
+.mainCarrier_div div.contentCarrier_div div.pageTitle h1
+{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+
+.languageListCarrier_div
+{
+	margin-top: 30px;
+}
+
+.languageListCarrier_div .languageListItem
+{
+	float: left;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin: 0 20px 20px 0;
+	cursor: pointer;
+}
+
+.languageListCarrier_div .languageListItem:hover
+{
+	background-color: #E6E6E6;
+}
+
+.languageListCarrier_div .languageListItem table td.image
+{
+}
+.languageListCarrier_div .languageListItem table td.image img
+{
+	max-width: 50px;
+}
+.languageListCarrier_div .languageListItem table td.title
+{
+	padding-left: 10px;
+}
+
+/*********************************************************/
+/*********************************************************/
+
+.paginationCD
+{
+	margin-top: 30px;
+}
+.paginationCD ul
+{
+	display: -ms-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	list-style: none;
+}
+.paginationCD ul li
+{
+	margin: 5px;
+}
+.paginationCD ul li a,
+.paginationCD ul li span
+{
+	display: -ms-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 3px;
+	border: 1px solid var(--color_2);
+	padding: 3px;
+	min-width: 40px;
+	min-height: 40px;
+}
+.paginationCD ul li a:hover,
+.paginationCD ul li span
+{
+	background-color: var(--color_2);
+}
+/*********************************************************/
+/*********************************************************/
+/*********************************************************/
+
+#id_ajaxRequestPreloader
+{
+	display: none;
+	position: fixed;
+	z-index: 10001;
+	top: 0;
+	border: 1px solid #D2D2D2;
+	border-radius: 3px;
+	background-color: white;
+	width: 42px;
+	height: 42px;
+	background-image: url(../img/preloader.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#id_ajaxRequestPreloaderMessage
+{
+	position: fixed;
+	display: none;
+	z-index: 10001;
+	top: 0;
+	border: 1px solid #D2D2D2;
+	padding: 5px;
+	background-color: white;
+}

@@ -1,0 +1,27 @@
+/* Страница входа в систему*/
+.loginCarrier
+{
+	 margin: auto;
+	 max-width: 350px;
+	 padding: 100px 0px 0px 0px;
+}
+.loginCarrier > div
+{
+	 border: 1px solid #D5D5D5;
+	 padding: 30px 30px 30px 30px;
+	 background-color: #F8F8F8;
+}
+
+.loginCarrier > div div.loginLogo
+{
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.loginCarrier > div div.loginLogo p
+{
+	font-size: 30px;
+	text-align: center;
+	color: #248BC3;
+}
+

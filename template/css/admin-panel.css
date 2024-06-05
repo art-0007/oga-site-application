@@ -1,0 +1,366 @@
+table
+{
+	border-collapse: collapse;
+	border: none;
+}
+
+table td
+{
+	padding: 0px;
+}
+
+.width100
+{
+	width: 100%;
+}
+
+.tableAlignCenter
+{
+	margin: 0px auto 0px auto;
+}
+
+.tableAlignRight
+{
+	float: right;
+}
+
+.delimiter
+{
+	clear: both;
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+.adminPanelCarrier_div
+{
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 5555;
+}
+
+.adminPanelCarrier_div > div.adminPanel
+{
+	margin: 0px auto 0px auto;
+	padding: 5px 10px;
+	background-color: #000000;
+	border-radius: 0px 0px 5px 5px;
+	min-width: 960px;
+}
+
+.adminPanelCarrier_div div.topMenu
+{
+}
+
+.adminPanelCarrier_div div.topMenu table td
+{
+	vertical-align: middle;
+	margin: 0px;
+}
+
+.adminPanelCarrier_div div.topMenu table td p
+{
+	margin: 0px;
+}
+.adminPanelCarrier_div div.topMenu table td p a
+{
+	position: static;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	margin: auto;
+    line-height: 25px;
+	width: 25px;
+	height: 25px;
+    text-align: center;
+}
+.adminPanelCarrier_div div.topMenu table td p a i
+{
+    font-size: 25px;
+    color: #FF8C00;
+}
+.adminPanelCarrier_div div.topMenu table td p a.long
+{
+	width: auto;
+	height: 25px;
+}
+
+.adminPanelCarrier_div div.topMenu table td.separator
+{
+	width: 5px;
+}
+
+.adminPanelCarrier_div div.topMenu table td.separatorColor
+{
+	padding: 0px 8px;
+	width: 2px;
+}
+
+.adminPanelCarrier_div div.topMenu table td.separatorColor > p
+{
+	background-color: #525252;
+	height: 30px;
+}
+
+.adminPanelCarrier_div div.topMenu table td.separator.widht15px
+{
+	width: 15px;
+}
+
+.adminPanelCarrier_div div.topMenu table td.filled
+{
+	text-align: center;
+	width: 30px;
+	height: 30px;
+}
+
+.adminPanelCarrier_div div.topMenu table td.filled_p
+{
+	text-align: left;
+	width: 30px;
+}
+
+.adminPanelCarrier_div div.topMenu table td.filled_p > p
+{
+	color: #B2B2B2;
+}
+
+.adminPanelCarrier_div div.topMenu table td.filled:hover
+{
+	background-color: #525252;
+	border-radius: 5px;
+}
+
+.adminPanelCarrier_div div.topMenu table td.filled p a.insert_image
+{
+	background-image: url(/template/img/admin-panel/insert_image.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.actionType
+{
+	background-image: url(/template/img/admin-panel/action_type.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.manager
+{
+	background-image: url(/template/img/admin-panel/manager.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.seo
+{
+	background-image: url(/template/img/admin-panel/seo.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.parameter
+{
+	background-image: url(/template/img/admin-panel/parameter.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.country
+{
+	background-image: url(/template/img/admin-panel/earth.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.region_country
+{
+	background-image: url(/template/img/admin-panel/region_country.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.label
+{
+	background-image: url(/template/img/admin-panel/label.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.sale
+{
+	background-image: url(/template/img/admin-panel/sale2.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.review
+{
+	background-image: url(/template/img/admin-panel/review.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.order
+{
+	background-image: url(/template/img/admin-panel/order.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.dataImageSettings
+{
+	background-image: url(/template/img/admin-panel/data_image_settings.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.email
+{
+	background-image: url(/template/img/admin-panel/email.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.subscribe
+{
+	background-image: url(/template/img/admin-panel/subscribe.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.catalog
+{
+	background-image: url(/template/img/admin-panel/catalog3.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.brand
+{
+	background-image: url(/template/img/admin-panel/brand.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.direction
+{
+	background-image: url(/template/img/admin-panel/direction.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.data
+{
+	background-image: url(/template/img/admin-panel/data.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.filterData
+{
+	background-image: url(/template/img/admin-panel/filter_data.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.dataImageSettings
+{
+	background-image: url(/template/img/admin-panel/data_image_settings.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.article
+{
+	background-image: url(/template/img/admin-panel/article.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.sliderImage
+{
+	background-image: url(/template/img/admin-panel/multimedia.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.file
+{
+	background-image: url(/template/img/admin-panel/folder_with_file.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.staticPage
+{
+	background-image: url(/template/img/admin-panel/document.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.staticHtml
+{
+	background-image: url(/template/img/admin-panel/static_html.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.adminUser
+{
+	background-image: url(/template/img/admin-panel/admin_user.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.allSettings
+{
+	background-image: url(/template/img/admin-panel/settings.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.exit
+{
+	background-image: url(/template/img/admin-panel/exit.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.add
+{
+	background-image: url(/template/img/admin-panel/add.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.edit
+{
+	background-image: url(/template/img/admin-panel/edit.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.insert_image
+{
+	background-image: url(/template/img/admin-panel/insert_image.png);
+}
+.adminPanelCarrier_div div.topMenu table td.filled p a.delete
+{
+	background-image: url(/template/img/admin-panel/delete.png);
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+.adminHotEditButton
+{
+	position: relative!important;
+	margin: 0!important;
+	padding: 0!important;
+	height: 42px!important;
+	clear: both!important;
+	z-index: 999!important;
+}
+.adminHotEditButton a
+{
+	display: inline-block!important;
+	width: 122px!important;
+	height: 42px!important;
+}
+.adminHotEditButton a.save
+{
+	background-image: url(/template/img/admin-panel/save.png)!important;
+}
+.adminHotEditButton a.cancel
+{
+	background-image: url(/template/img/admin-panel/cancel.png)!important;
+	margin-left: 20px!important;
+}
+
+.adminHotEditComment
+{
+	font-size: 11px;
+	color: #C9C9C9;
+}
+
+.adminHotEditInput
+{
+	width: 99%;
+	margin: 0px;
+	padding: 2px;
+	border: 1px solid #000000;
+}
+
+.adminHotEditInputFile
+{
+	position: absolute;
+	left: -9999px;
+}
+
+.adminHotEditTextarea
+{
+	margin: 0px;
+	padding: 2px;
+	border: 1px solid #000000;
+	font-size: 12px;
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+#toolsForEditingListItem
+{
+	position: relative;
+	background-color: #E6E6E6;
+	padding: 5px 10px;
+	border-radius: 5px;
+	height: 30px;
+    z-index: 111;
+}
+
+#toolsForEditingListItem p input
+{
+	position: absolute;
+	top: 15px;
+	left: 10px;
+}
+
+#toolsForEditingListItem p a
+{
+	position: absolute;
+	top: 7px;
+	right: 10px;
+	display: block;
+	background-repeat: no-repeat;
+	margin: auto;
+	width: 25px;
+	height: 25px;
+}
+
+#toolsForEditingListItem p a:hover
+{
+}
+
+#toolsForEditingListItem p a.edit
+{
+	right: 45px;
+	background-image: url(/template/img/admin-panel/edit.png);
+}
+#toolsForEditingListItem p a.delete
+{
+	background-image: url(/template/img/admin-panel/delete.png);
+}
+

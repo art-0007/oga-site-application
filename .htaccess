@@ -1,0 +1,8 @@
+Order Allow,Deny
+Allow From All
+#Deny From All
+
+RewriteEngine on
+
+RewriteCond $1 !^(index\.php|robots\.txt|sitemap\.xml|phpinfo\.php|js|template|share)
+RewriteRule ^(.*)$ /index.php?$1 [L,QSA]

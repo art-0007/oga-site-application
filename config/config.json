@@ -1,0 +1,15 @@
+{
+	"db":
+	{
+		"host": "oga1.mysql.tools",
+		"port": "3306",
+		"user": "oga1_db",
+		"password": "785rk9Sc",
+		"dbName": "oga1_db"
+	},
+	"thirdPartyLibraryPath": "/system/lib",
+	"logDBQueries": false,
+	"debug": false,
+	"showStatistic": false,
+	"showStdOut": false
+}

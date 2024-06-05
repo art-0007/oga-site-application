@@ -1,0 +1,348 @@
+/***********************************************************************/
+/*****                   PROFILE CONTENT                           *****/
+/***********************************************************************/
+
+.userProfileContent
+{
+}
+.userProfileContent .innerWrapper
+{
+}
+.userProfileContent .innerWrapper .profileItem
+{
+	-ms-flex: 0 0 calc(100% / 3);
+	flex: 0 0 calc(100% / 3);
+	max-width: calc(100% / 3);
+	margin-bottom: 30px;
+}
+.userProfileContent .innerWrapper .profileItem a
+{
+	display: block;
+	border-radius: 5px;
+	margin: 0px auto;
+	padding: 15px;
+	text-align: center;
+	transition: all 0.5s ease 0s;
+}
+.userProfileContent .innerWrapper .profileItem a:hover
+{
+	background-color: var(--color_white);
+	-webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.25);
+	box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.25);
+}
+.userProfileContent .innerWrapper .profileItem a i
+{
+	display: block;
+	font-size: 3.5rem;
+	text-align: center;
+	margin-bottom: 20px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.userProfileContent .innerWrapper .profileItem a .title
+{
+	display: block;
+	font-size: 1.6rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.userProfileContent .innerWrapper .profileItem a .description
+{
+	display: block;
+	margin-top: 10px;
+	font-size: 1.4rem;
+	font-weight: 400;
+}
+
+@media (max-width: 767px)
+{
+	.userProfileContent .innerWrapper .profileItem
+	{
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}
+
+/***********************************************************************/
+/*****                 userOrderList CONTENT                       *****/
+/***********************************************************************/
+
+.userOrderListContent
+{
+}
+.userOrderListContent .innerWrapper
+{
+}
+.userOrderListContent .innerWrapper .tableHeader
+{
+	background-color: var(--color_13);
+	border: 1px solid var(--color_12);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0;
+	margin-left: 0;
+	margin-right: 0;
+
+	font-size: 1.6rem;
+	font-weight: bold;
+	color: var(--color_black);
+}
+.userOrderListContent .innerWrapper .col
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.userOrderListContent .innerWrapper .number
+{
+	text-align: left;
+}
+.userOrderListContent .innerWrapper .tableRow
+{
+	margin-left: 0;
+	margin-right: 0;
+}
+.userOrderListContent .innerWrapper .tableRow .title
+{
+	display: none;
+}
+.userOrderListContent .innerWrapper .tableRow:nth-child(even)
+{
+}
+.userOrderListContent .innerWrapper .tableRow:nth-child(odd)
+{
+	background-color: var(--color_13);
+}
+.userOrderListContent .innerWrapper .more
+{
+}
+
+@media (max-width: 767px)
+{
+	.userOrderListContent .innerWrapper .tableHeader
+	{
+		display: none;
+	}
+	.userOrderListContent .innerWrapper .col
+	{
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+
+		padding-top: 5px;
+		padding-bottom: 5px;
+		text-align: left;
+	}
+	.userOrderListContent .innerWrapper .tableRow
+	{
+		border: 1px solid var(--color_12);
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+	.userOrderListContent .innerWrapper .tableRow .col
+	{
+		display: -ms-flex;
+		display: flex;
+		justify-content: space-between;
+	}
+	.userOrderListContent .innerWrapper .tableRow .col.more
+	{
+		display: -ms-flex;
+		display: flex;
+		justify-content: center;
+	}
+	.userOrderListContent .innerWrapper .tableRow .title
+	{
+		display: inline-block;
+	}
+	.userOrderListContent .innerWrapper .tableRow .value
+	{
+		text-align: right;
+	}
+	.userOrderListContent .innerWrapper .more
+	{
+		text-align: center;
+	}
+}
+
+/***********************************************************************/
+/*****                 userOrderView CONTENT                       *****/
+/***********************************************************************/
+
+.userOrderViewContent
+{
+}
+.userOrderViewContent .innerWrapper
+{
+}
+.userOrderViewContent .innerWrapper .tableHeader
+{
+	background-color: var(--color_13);
+	border: 1px solid var(--color_12);
+	margin-left: 0;
+	margin-right: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	font-size: 1.6rem;
+	font-weight: bold;
+	color: var(--color_black);
+}
+.userOrderViewContent .innerWrapper .tableRow
+{
+	margin-left: 0;
+	margin-right: 0;
+}
+.userOrderViewContent .innerWrapper .tableRow .col
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.userOrderViewContent .innerWrapper .tableRow:nth-child(even)
+{
+}
+.userOrderViewContent .innerWrapper .tableRow:nth-child(odd)
+{
+	background-color: var(--color_13);
+}
+.userOrderViewContent .innerWrapper .topTable
+{
+	margin-bottom: 40px;
+}
+.userOrderViewContent .innerWrapper .topTable .tableRow .title
+{
+	text-align: left;
+}
+
+@media (max-width: 767px)
+{
+	.userOrderViewContent .innerWrapper .topTable .tableRow
+	{
+		border: 1px solid var(--color_12);
+		margin-bottom: 10px;
+	}
+	.userOrderViewContent .innerWrapper .topTable .tableRow .col
+	{
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.userOrderViewContent .innerWrapper .topTable .tableRow .col.title
+	{
+		border-bottom: 1px dotted var(--color_12);
+	}
+	.userOrderViewContent .innerWrapper .topTable .tableRow .col.value
+	{
+		text-align: right;
+	}
+}
+
+/*****/
+
+.userOrderViewContent .innerWrapper .titleBlock
+{
+	margin-bottom: 30px;
+	line-height: 1;
+	font-size: 2.4rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: var(--color_black);
+}
+/*****/
+
+.userOrderViewContent .innerWrapper .bottomTable
+{
+}
+.userOrderViewContent .innerWrapper .bottomTable .col
+{
+	text-align: center;
+}
+.userOrderViewContent .innerWrapper .bottomTable .col.product
+{
+	flex-grow: 2;
+	text-align: left;
+}
+.userOrderViewContent .innerWrapper .bottomTable .tableRow
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	align-items: center;
+}
+.userOrderViewContent .innerWrapper .bottomTable .tableRow .product
+{
+	font-size: 1.4rem;
+}
+.userOrderViewContent .innerWrapper .bottomTable .tableRow .product .row
+{
+	width: 100%;
+}
+.userOrderViewContent .innerWrapper .bottomTable .tableRow .product .col
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-align: left;
+}
+.userOrderViewContent .innerWrapper .bottomTable .tableRow .product .left_side
+{
+	-ms-flex: 0 0 90px;
+	flex: 0 0 90px;
+	max-width: 90px;
+}
+.userOrderViewContent .innerWrapper .bottomTable .tableRow .item .right_side
+{
+}
+
+.userOrderViewContent .innerWrapper .bottomTable .tableRow .product .img_wrap
+{
+}
+.userOrderViewContent .innerWrapper .bottomTable .tableRow .product .img_wrap .el
+{
+}
+.userOrderViewContent .innerWrapper .bottomTable .tableRow .product p
+{
+	margin-bottom: 5px;
+	font-size: 1.3rem;
+}
+.userOrderViewContent .innerWrapper .bottomTable .tableRow .product .offerTitle
+{
+	line-height: 1.4;
+	font-size: 1.4rem;
+	color: var(--color_6);
+}
+.userOrderViewContent .innerWrapper .bottomTable .tableRow .sum
+{
+	color: var(--color_black);
+}
+.userOrderViewContent .innerWrapper .bottomTable .tableRow .title
+{
+	display: none;
+}
+
+@media(max-width: 767px)
+{
+	.userOrderViewContent .innerWrapper .bottomTable .tableHeader
+	{
+		display: none;
+	}
+	.userOrderViewContent .innerWrapper .bottomTable .tableRow
+	{
+		border: 1px solid var(--color_12);
+		margin-bottom: 20px;
+	}
+	.userOrderViewContent .innerWrapper .bottomTable .tableRow .qty,
+	.userOrderViewContent .innerWrapper .bottomTable .tableRow .sum
+	{
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.userOrderViewContent .innerWrapper .bottomTable .tableRow .title
+	{
+		display: inline-block;
+	}
+}

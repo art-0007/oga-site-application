@@ -1,0 +1,211 @@
+.popupMessage {
+	display: none;
+	background-color: #ffffff;
+	clear: both;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 0 5 rgba(0,0,0,0.3);
+	min-width: 400px;
+	max-width: 500px;
+	position: relative;
+}
+.popupMessage .header {
+	background-color: #4c8bae;
+	font-size: 18px;
+	padding: 10px 35px 10px 30px;
+	color: #FFFFFF;
+	cursor: default;
+}
+
+.popupMessage .popupMessageContent
+{
+}
+
+.popupMessage .text {
+	background-repeat: no-repeat;
+	background-position: 10px 15px;
+	margin: 0px;
+	padding: 20px 20px 20px 50px;
+	min-height: 40px;
+	max-height: 300px;
+	color: #22303a;
+	overflow: auto;
+}
+.popupMessage .text * {
+	color: #22303a;
+}
+.popupMessage .text a {
+	color: #5F7ABA;
+}
+.popupMessage .buttons {
+	border-top: 1px solid #d5d5d5;
+	margin: 0px;
+	padding: 16px 15px 16px 16px;
+	text-align: right;
+	background-color: #f8f8f8;
+}
+
+.popupMessage .image
+{
+	position: absolute;
+	top: 54px;
+	left: 10px;
+	width: 30px;
+	height: 30px;
+}
+
+.popupMessage .image.sprite-popup-message-ok
+{
+	background-image: url(/template/img/message/ok.png);
+}
+.popupMessage .image.sprite-popup-message-error
+{
+	background-image: url(/template/img/message/error.png);
+}
+.popupMessage .image.sprite-popup-message-confirm
+{
+	background-image: url(/template/img/message/confirm.png);
+}
+
+.popupMessage {
+	display: none;
+	background-color: #ffffff;
+	clear: both;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 0 5 rgba(0,0,0,0.3);
+	min-width: 400px;
+	max-width: 500px;
+	position: relative;
+}
+.popupMessage .header {
+	background-color: #4c8bae;
+	font-size: 18px;
+	padding: 10px 35px 10px 30px;
+	color: #FFFFFF;
+	cursor: default;
+}
+
+.popupMessage .popupMessageContent
+{
+}
+
+.popupMessage .text {
+	background-repeat: no-repeat;
+	background-position: 10px 15px;
+	margin: 0px;
+	padding: 20px 20px 20px 50px;
+	min-height: 40px;
+	max-height: 300px;
+	color: #22303a;
+	overflow: auto;
+}
+.popupMessage .text * {
+	color: #22303a;
+}
+.popupMessage .text a {
+	color: #5F7ABA;
+}
+.popupMessage .buttons {
+	border-top: 1px solid #d5d5d5;
+	margin: 0px;
+	padding: 16px 15px 16px 16px;
+	text-align: right;
+	background-color: #f8f8f8;
+}
+
+.popupMessage .image
+{
+	position: absolute;
+	top: 54px;
+	left: 10px;
+	width: 30px;
+	height: 30px;
+}
+
+.popupMessage .image.sprite-popup-message-ok
+{
+	background-image: url(/template/img/message/ok.png);
+}
+.popupMessage .image.sprite-popup-message-error
+{
+	background-image: url(/template/img/message/error.png);
+}
+.popupMessage .image.sprite-popup-message-confirm
+{
+	background-image: url(/template/img/message/confirm.png);
+}
+
+/***/
+
+.popupMessage.front
+{
+	display: none;
+	background-color: #aa9342 ;
+	clear: both;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 0 5 rgba(0,0,0,0.3);
+	min-width: 400px;
+	max-width: 500px;
+	position: relative;
+}
+.popupMessage.front .header
+{
+	font-size: 24px;
+	font-family: "Roboto Condensed", sans-serif;
+	text-transform: uppercase;
+	line-height: 35px;
+	font-size: 18px;
+	padding: 10px 35px 10px 30px;
+	color: #FFFFFF;
+	cursor: default;
+}
+
+.popupMessage.front .popupMessage.frontContent
+{
+}
+
+.popupMessage.front .text {
+	background-repeat: no-repeat;
+	background-position: 10px 15px;
+	margin: 0px;
+	padding: 20px 20px 20px 50px;
+	min-height: 40px;
+	max-height: 300px;
+	color: #22303a;
+	overflow: auto;
+}
+.popupMessage.front .text * {
+	color: #22303a;
+}
+.popupMessage.front .text a {
+	color: #5F7ABA;
+}
+.popupMessage.front .buttons {
+	border-top: 1px solid #d5d5d5;
+	margin: 0px;
+	padding: 16px 15px 16px 16px;
+	text-align: right;
+	background-color: #f8f8f8;
+}
+
+.popupMessage.front .image
+{
+	position: absolute;
+	top: 54px;
+	left: 10px;
+	width: 30px;
+	height: 30px;
+}
+
+.popupMessage.front .image.sprite-popup-message-ok
+{
+	background: none;
+}
+.popupMessage.front .image.sprite-popup-message-error
+{
+	background: none;
+}
+.popupMessage.front .image.sprite-popup-message-confirm
+{
+	background: none;
+}
+
